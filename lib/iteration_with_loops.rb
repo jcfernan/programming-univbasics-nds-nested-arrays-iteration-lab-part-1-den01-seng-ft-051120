@@ -1,10 +1,11 @@
 def find_even_values(src)
   count = 0
   
-while count > src.length do
+while count < src.length do
   inner_count = 0
   
-  while 
+  while inner_count < src [count] do
+    
   
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
