@@ -5,7 +5,7 @@ while count < src.length do
   inner_count = 0
   
   while inner_count < src [count] do
-    p src [inner_count] [count]
+    p src [count] [inner_count]
   
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
