@@ -4,7 +4,7 @@ def find_even_values(src)
 while count < src.length do
   inner_count = 0
   
-  while inner_count < src [count] do
+  while inner_count < src [count].length do
     p src [count] [inner_count].even
     inner_count += 1
   end
