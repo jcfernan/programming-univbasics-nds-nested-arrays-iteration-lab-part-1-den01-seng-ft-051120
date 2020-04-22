@@ -6,7 +6,7 @@ while count < src.length do
   
   while inner_count < src [count].length do
     if src[count][inner_count].even?
-    p src [count] [inner_count].even
+    p src [count] [inner_count]
     inner_count += 1
   end
   count += 1
