@@ -7,7 +7,9 @@ while count < src.length do
   while inner_count < src [count] do
     p src [count] [inner_count]
     inner_count += 1
+  end
   
+end
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
   #
